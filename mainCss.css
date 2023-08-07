@@ -1,0 +1,324 @@
+.navbar-brand .My {
+    margin-left: 20px;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+
+
+
+}
+
+.navbar-brand {
+    width: 100%;
+
+}
+
+.navbar-brand .Library {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(144, 117, 81);
+
+
+}
+
+.container-fluid {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    background-color: rgb(204, 204, 204);
+    padding-top: 20px;
+
+}
+
+#navbarSupportedContent {
+    position: absolute;
+    right: 100px;
+}
+
+.navbar-nav {
+
+    position: fixed;
+    right: 50px;
+
+}
+
+.navbar-nav .nav-link {
+    color: rgb(69, 49, 35);
+    font-size: 16px;
+
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(120, 103, 80);
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+}
+
+
+.carousel-indicators active {
+    width: 10px;
+    height: 10px;
+    color: rgb(122, 101, 80);
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* slider */
+.slider .carousel-inner .carousel-indicators {
+    height: 80px;
+
+}
+
+.slider .carousel-inner {
+
+    margin-top: 30px;
+}
+
+.slider .carousel-inner .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.324);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: left;
+
+}
+
+.slider .carousel-inner h2 {
+    z-index: 3;
+    display: inline-block;
+    color: white;
+    margin-left: 80px;
+    font-size: 60px;
+    max-width: 800px;
+    line-height: 1.5;
+}
+
+.slider .carousel-inner span {
+    background-color: rgb(122, 108, 87);
+    padding: 2px 10px;
+    font-size: 65px;
+    color: black;
+}
+
+.slider .carousel-inner .carousel-indicators {
+    line-height: 80px;
+}
+
+/* discription */
+
+.discription h1 {
+    font-size: 42px;
+    color: #00000c;
+    text-align: center;
+    font-weight: bold;
+}
+
+.discription p {
+    font-size: 18px;
+    color: rgb(109, 95, 77);
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.discription {
+    background-color: rgb(222, 222, 222);
+}
+
+
+/* footer */
+
+.footer-contact {
+    margin: 40px;
+}
+
+.text-left button {
+    margin-top: 30px;
+    background-color: rgb(144, 117, 81);
+    border: 2px solid rgb(144, 117, 81);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.reachUs {
+    color: rgb(103, 86, 64);
+    font-size: 30px;
+}
+
+.hr {
+    color: rgb(144, 117, 81);
+}
+
+.contactWithUs {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.contactWithUsDescreption {
+    line-height: 50px;
+    margin-top: 18px;
+    font-size: 20px;
+    color: rgb(85, 85, 85);
+    word-spacing: 5px;
+
+}
+
+.contactPhone {
+    margin-top: 60px;
+    font-size: 18px;
+}
+
+.contactEmail {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.footer-contact {
+    background-color: #e4e4e4;
+    padding: 50px;
+    border: 1px solidrgb(144, 117, 81);
+    border-radius: 10px;
+}
+
+/* slide img */
+
+.img-slider {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/* create */
+
+
+.createDiv {
+    height: 800px;
+    width: 100%;
+    margin: 20PX 20px;
+    padding: 50px;
+    background-color: #cdb098;
+}
+
+.header {
+    font-size: 40px;
+}
+
+
+
+#sty {
+    margin-top: 35px;
+    margin-right: 20px;
+
+}
+
+.tahead {
+    background-color: #00000c;
+}
+
+#btnAdd {
+    background-color: rgb(226, 226, 226);
+}
+
+head.bodycss {
+    background-color: rgb(226, 226, 226);
+}
+
+#bodycss {
+    background-color: rgb(226, 226, 226);
+}
+
+.appDiv {
+    margin-left: 350px;
+}
+
+.DETAILSTitel {
+    margin-top: 30px;
+    color: rgb(144, 117, 81);
+    margin-left: 300px;
+}
+
+#cardDetails {
+    width: 50rem;
+}
+
+.card-body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#nameLabel {
+    font-weight: bold;
+}
+
+#authorLabel {
+    font-weight: bold;
+}
+
+#quantityLabel {
+    font-weight: bold;
+}
+
+#detailsLabel {
+    font-weight: bold;
+}
+
+#categoryLabel {
+    font-weight: bold;
+}
+
+#priceLabel {
+    font-weight: bold;
+}
+
+#name {
+    color: rgb(105, 79, 57);
+}
+
+#author {
+    color: rgb(105, 79, 57);
+}
+
+#quantity {
+    color: rgb(105, 79, 57);
+}
+
+#details {
+    color: rgb(105, 79, 57);
+}
+
+#category {
+    color: rgb(105, 79, 57);
+}
+
+#price {
+    color: rgb(105, 79, 57);
+}
+
+.Updatebackground {
+    background-color: rgb(226, 226, 226);
+}
+
+#contenerRow {
+    margin: 100px;
+    width: 700px;
+}
+
+.TitelUPDATE {
+    margin-top: 30px;
+    color: rgb(144, 117, 81);
+}
+
+.btnDiv {
+    border: 2px;
+    margin: 100px;
+}

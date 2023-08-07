@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="/myLibrary/mainCss.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <!-- navbar -->
+    <div class="navbar">
+
+        <div class="contener">
+
+            <div class="row">
+
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+
+                        <a class="navbar-brand" href="#"><span class="My">My</span>
+                            <span class="Library">Library</span></a>
+
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="navbar-nav">
+                                <a class="nav-link " aria-current="page"
+                                    href="http://localhost/myLibrary/index.php">Show Book</a>
+                                <a class="nav-link " href="http://localhost/myLibrary/create.php">Add new book</a>
+                                <a class="nav-link" href="#about">about</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- slider -->
+    <div class="slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-inner">
+
+                <div class="overlay">
+
+                    <h2>We’re a Book <br> <span>Shop</span> <br> library.</h2>
+
+                </div>
+
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b3BlbiUyMGJvb2t8ZW58MHx8MHx8&w=1000&q=80"
+                        class="d-block w-100" alt="...">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- discription -->
+    <hr>
+    <div class="discription">
+        <hr>
+        <div class="contener">
+            <div class="row">
+
+                <h1 id="about">About</h1>
+
+                <p>Books are a wonderful source of knowledge and information. They can be used to learn about a wide
+                    range of topics, from
+                    science and math to literature and history. They can also be a great source of entertainment, with
+                    stories and
+                    characters that capture our imagination and bring us to new worlds. Reading can also have numerous
+                    benefits for our
+                    mental and emotional well-being, helping us to relax and de-stress. Overall, books play a vital role
+                    in our personal and
+                    intellectual growth, and are a valuable resource for anyone looking to learn and expand their
+                    horizons.</p>
+
+
+            </div>
+        </div>
+        <hr>
+    </div>
+    <hr>
+
+
+    <!-- footer -->
+    <footer>
+
+        <div class="footer-contact" id="contactId">
+            <div class="contener">
+                <div class="row">
+
+                    <section id="contact" class="contact section-bg">
+                        <div class="container">
+
+
+                            <div class="row">
+
+                                <div class="col-lg-5">
+
+                                    <div class="row">
+                                        <div class="col-md-12 aos-init aos-animate" data-aos="fade-right">
+                                            <div class="contactWithUs">Contact with us</div>
+                                            <div class="contactWithUsDescreption">
+                                                <p>It's very easy to get in touch with us. Just use the contact form or
+                                                    pay us a visit
+                                                    for a
+                                                    coffee at the office.&nbsp;</p>
+                                            </div>
+                                            <div class="contactPhone"> Phone:
+                                                +970 565 286 25</div>
+                                            <div class="contactEmail">Email: <a href="">
+                                                    taghteedlouz@gmail.com
+                                                </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-7 mt-4 mt-lg-0 aos-init aos-animate" data-aos="fade-left">
+                                    <div class="reachUs">Reach us quickly</div>
+
+                                    <form accept-charset="UTF-8" id="contactF" class="php-email-form">
+
+                                        <div class="row">
+                                            <div class="form-group mt-3">
+                                                <div id="results_contact" class="alert alert-danger d-none">
+
+                                                </div>
+                                                <div id="success_contact" class="alert alert-success d-none">
+
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group mt-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Full
+                                                    Name</label>
+                                                <input type="text" class="form-control" name="name" id="name"
+                                                    placeholder="Enter Name" required="">
+                                            </div>
+
+                                            <div class="col-md-6 form-group mt-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Phone
+                                                    Number</label>
+                                                <input type="number" name="phone" class="form-control" id="phone"
+                                                    placeholder="Your phone" required="">
+                                            </div>
+
+                                            <div class="col-md-6 form-group mt-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Email
+                                                    address</label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                    placeholder="name@example.com">
+                                            </div>
+
+                                            <div class="form-group mt-3">
+                                                <label for="exampleFormControlTextarea1" class="form-label">Example
+                                                    textarea</label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                    rows="3"></textarea>
+                                            </div>
+
+                                            <div class="text-left">
+                                                <button type="submit">Send Message</button>
+                                            </div>
+                                    </form>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
